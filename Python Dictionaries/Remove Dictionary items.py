@@ -3,6 +3,7 @@ thisdict = {"brand": "Ford", "model": "Mustang", "year": 1964}
 thisdict.pop("model")
 print(thisdict)
 # Output : {'brand': 'Ford', 'year': 1964}
+
 # EX2
 thisdict = {"brand": "Ford", "model": "Mustang", "year": 1964}
 thisdict.popitem()
