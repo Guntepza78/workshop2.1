@@ -1,5 +1,6 @@
 fruits = ["apple", "banana", "cherry"]
 for fruit in fruits:
     print(fruit)
-
-# Output :
+# Output : apple
+# banana
+# cherry

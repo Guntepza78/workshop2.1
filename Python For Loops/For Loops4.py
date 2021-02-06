@@ -3,5 +3,5 @@ for fruit in fruits:
     if fruit == "banana":
         continue
     print(fruit)
-
-# Output :
+# Output : apple
+# cherry

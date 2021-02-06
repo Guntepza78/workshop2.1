@@ -3,5 +3,7 @@ for fruits in fruits:
     print(fruits)
 else:
     print("Finally finished!")
-
-# Output :
+# Output : apple
+# banana
+# cherry
+# Finally finished!

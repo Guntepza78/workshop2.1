@@ -1,5 +1,9 @@
 string = "banana"
 for char in string:
     print(char)
-
-# Output :
+# Output : b
+# a
+# n
+# a
+# n
+# a
