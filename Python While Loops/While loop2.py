@@ -4,3 +4,6 @@ while i < 6:
     if i == 3:
         break
     i += 1
+# Output : 1
+# 2
+# 3

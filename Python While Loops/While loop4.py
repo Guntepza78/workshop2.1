@@ -5,4 +5,6 @@ while i < 3:
 else:
     print("i is no longer less than 3")
 
-# Output :
+# Output : 1
+# 2
+# i is no longer less than 3
