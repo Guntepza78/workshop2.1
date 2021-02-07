@@ -14,23 +14,23 @@
 # Enter your score: 49
 # grade:  F
 
-x = int(input("Enter You Score:"))
-
-if x < 0:
-    print("error")
-elif x <= 49:
-    print("grade: F")
-elif x >= 50 and x < 55:
-    print("grade: D")
-elif x >= 55 and x < 60:
-    print("grade: D+")
-elif x >= 60 and x < 65:
-    print("grade: C")
-elif x >= 65 and x < 70:
-    print("grade: C+")
-elif x >= 70 and x < 75:
-    print("grade: ")
-elif x >= 75 and x < 80:
-    print("grade: B+")
-elif x >= 80 and x <= 100:
-    print("grade: A")
+score = int(input("Enter your score : "))
+if score >= 1 and score <= 100:
+    if score >= 80:
+        print("grade : A")
+    elif score >= 75:
+        print("grade : B+")
+    elif score >= 70:
+        print("grade : B")
+    elif score >= 65:
+        print("grade : C+")
+    elif score >= 60:
+        print("grade : C")
+    elif score >= 55:
+        print("grade : D+")
+    elif score >= 50:
+        print("grade : D")
+    else:
+        print("grade : F")
+else:
+    print("Not found!")
